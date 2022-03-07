@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function () {
@@ -18,7 +19,7 @@ export default function () {
 
                 <div className="collapse navbar-collapse" id="navbar-menu">
                     <ul className="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li className="nav-item active"><a className="nav-link" href="index.html">Home</a></li>
+                        <li className="nav-item active"><Link href="/"><a className="nav-link" >Home</a></Link></li>
                         <li className="nav-item"><a className="nav-link" href="about.html">About Us</a></li>
                         <li className="dropdown megamenu-fw">
                             <a href="#" className="nav-link dropdown-toggle arrow" data-toggle="dropdown">Product</a>
