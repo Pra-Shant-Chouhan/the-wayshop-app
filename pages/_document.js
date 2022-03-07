@@ -12,10 +12,6 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-          <title>ThewayShop - Ecommerce</title>
           <meta name="keywords" content="" />
           <meta name="description" content="" />
           <meta name="author" content="" />
@@ -26,7 +22,6 @@ class MyDocument extends Document {
             type="image/x-icon"
           />
           <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
-
           <link rel="stylesheet" href="/css/bootstrap.min.css" />
           <link rel="stylesheet" href="/css/style.css" />
           <link rel="stylesheet" href="/css/responsive.css" />
