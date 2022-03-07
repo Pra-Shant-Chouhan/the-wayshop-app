@@ -1,5 +1,5 @@
 import React from "react";
-import ShopCategories from "./ShopCategories.jsx";
+import ShopCategories from "./ShopCategories";
 import { useSelector } from "react-redux";
 
 export default function ShopCategoriesContainer() {

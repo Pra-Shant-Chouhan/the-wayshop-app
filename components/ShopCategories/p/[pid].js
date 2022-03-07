@@ -1,11 +1,10 @@
 import React, { useMemo } from "react";
 
 import { useSelector } from "react-redux";
-import FeturedProducts from "../../components/FeturedPorducts/FeturedProducts";
+import FeturedProducts from "../../FeturedPorducts/FeturedProducts";
 
-
-export async function getStaticProps(context) {
-  const { pid } = context.params;
+export async function getServerSideProps(context) {
+  const { pid } = context.query;
   return {
     props: { pid },
   };
